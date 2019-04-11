@@ -1,0 +1,5 @@
+pages\PageLogon.class
+pages\PageLogin.class
+pages\PageReservation.class
+helpers\Helpers.class
+tests\Tests_Automatizados.class

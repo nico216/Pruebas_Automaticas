@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: tests.Tests_Automatizados
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.769 sec <<< FAILURE! - in tests.Tests_Automatizados
+CP002(tests.Tests_Automatizados)  Time elapsed: 23.206 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at pages.PageReservation.assertReservationPage(PageReservation.java:22)
+	at tests.Tests_Automatizados.CP002(Tests_Automatizados.java:67)
+
